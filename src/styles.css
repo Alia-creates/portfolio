@@ -46,20 +46,6 @@ body {
   border-radius: 10px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-
-/* Copy */
-
-.tile-1 img {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 4px;
-  width: 621px;
-  height: 70px;
-  flex: none;
-  order: 1;
-  align-self: stretch;
-  flex-grow: 0;
+.p-3 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
