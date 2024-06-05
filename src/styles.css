@@ -59,3 +59,47 @@ body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
+@media (max-width: 576px) {
+  h2,
+  p,
+  img {
+   
+    text-align: center;
+  }
+}
+@media (min-width: 576px) {
+  d-flex align-content-around flex-wrap {
+    display: flex;
+  }
+}
+
+.text-container {
+  word-wrap: break-word;
+}
+
+@media (max-width: 375px) {
+  .col-md-6.float-md-start {
+    display: block;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .ms-md-3 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .flex-grow-1.ms-3 {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+
+  .col-md-6 {
+    width: 100%;
+    height: auto;
+  }
+}
